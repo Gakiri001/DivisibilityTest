@@ -14,7 +14,7 @@ function fizzbuzz(i) {
   }
 
   for(let num=1;num<=100;num++){
-    fizzbuzz(num)
+    console.log(fizzbuzz(num))
   }
 
 module.exports = {fizzbuzz}
